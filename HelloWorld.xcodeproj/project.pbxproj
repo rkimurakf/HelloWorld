@@ -24,6 +24,7 @@
 		EA7F91362C99603D00E38BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7F91392C99603D00E38BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA7F913B2C99603D00E38BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7F91412C99633300E38BC3 /* HelloWorld.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HelloWorld.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +64,14 @@
 				EA7F91362C99603D00E38BC3 /* Assets.xcassets */,
 				EA7F91382C99603D00E38BC3 /* LaunchScreen.storyboard */,
 				EA7F913B2C99603D00E38BC3 /* Info.plist */,
+				EA7F91412C99633300E38BC3 /* HelloWorld.xcodeproj */,
 			);
 			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		EA7F91422C99633300E38BC3 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +120,12 @@
 			mainGroup = EA7F91212C99603C00E38BC3;
 			productRefGroup = EA7F912B2C99603C00E38BC3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA7F91422C99633300E38BC3 /* Products */;
+					ProjectRef = EA7F91412C99633300E38BC3 /* HelloWorld.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EA7F91292C99603C00E38BC3 /* HelloWorld */,
